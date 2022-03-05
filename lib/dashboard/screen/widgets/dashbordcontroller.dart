@@ -56,7 +56,7 @@ var result = await Api().getMemberCardColection();
 var a = await Api().getcarwash();
  var b = await Api().getdealer();
  var c = await Api().getvendor();
-totalcarwash = a["data"].length.toString();
+totalcarwash =   a["data"].length.toString();
 totaldealer = b["data"].length.toString();
 totalvendor = await c["data"].length.toString();
 
